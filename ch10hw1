@@ -1,0 +1,53 @@
+Microsoft Windows [Version 10.0.22000.856]
+(c) Microsoft Corporation. Tüm hakları saklıdır.
+
+C:\Users\betul.agca\eclipse-workspace\Introduction to Object-Oriented Programming with Java\src\ch10hw1> javac -d ./bin *.java
+
+C:\Users\betul.agca\eclipse-workspace\Introduction to Object-Oriented Programming with Java\src\ch10hw1> javac -d ./bin A.java
+A.java:3: error: package t.s does not exist
+import t.s.C;
+          ^
+A.java:7: error: cannot find symbol
+    C c = new C();
+    ^
+  symbol:   class C
+  location: class A
+A.java:7: error: cannot find symbol
+              ^
+              ^
+  symbol:   class C
+  location: class A
+3 errors
+                                                                                g with Java\src\ch10hw1> javac -d ./binC:\Users\betul.agca\eclipse-workspace\Introduction to Object-Oriented Programming with Java\src\ch10hw1> javac -d ./bin B.java
+B.java:3: error: package t.s does not exist
+import t.s.C;
+          ^
+B.java:7: error: cannot find symbol
+    C c = new C();
+    ^
+  symbol:   class C
+  location: class B
+B.java:7: error: cannot find symbol
+    C c = new C();
+              ^
+  symbol:   class C
+  location: class B
+3 errors
+
+C:\Users\betul.agca\eclipse-workspace\Introduction to Object-Oriented Programming with Java\src\ch10hw1>javac -d ./bin C.java
+C.java:3: error: package m.n does not exist
+import m.n.D;
+          ^
+C.java:7: error: cannot find symbol
+    D d = new D();
+    ^
+  symbol:   class D
+  location: class C
+C.java:7: error: cannot find symbol
+    D d = new D();
+              ^
+  symbol:   class D
+3 errors
+
+C:\Users\betul.agca\eclipse-workspace\Introduction to Object-Oriented Programming with Java\src\ch10hw1> javac -d ./bin D.javaavac -d ./bin D.java
+C:\Users\betul.agca\eclipse-workspace\Introduction to Object-Oriented Programming with Java\src\ch10hw1> 
